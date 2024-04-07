@@ -1,0 +1,68 @@
+.login-page {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-width: 300px;
+}
+
+.sub-title {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.forgot-password-link {
+    display: block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    /* Verde para ação positiva */
+    color: white;
+    cursor: pointer;
+}
+
+.login-form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Ajuste a largura conforme necessário */
+    margin: auto; /* Centraliza o formulário se dentro de um flex container */
+  }
+  
+  .input-field input {
+    width: calc(100% - 20px); /* Ajuste para contabilizar o padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding não adicione à largura total */
+  }  
+
+  
