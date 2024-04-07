@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    border-bottom-left-radius: 10px; /* Arredondamento da borda inferior esquerda */
+    border-bottom-right-radius: 10px; /* Arredondamento da borda inferior direita */
+  }
+  
+  .logo {
+    height: 50px; /* Tamanho reduzido para o ícone do menu */
+  }
+
+  .menu-icon {
+    height: 30px; /* Tamanho reduzido para o ícone do menu */
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center; /* Isso garante que o nome do usuário e o ícone do menu estejam alinhados verticalmente ao centro */
+  }
+  
+  .header-right .user-name {
+    font-weight: bold;
+    margin-right: 20px; /* Espaço entre o nome do usuário e o ícone do menu */
+  }
+  
