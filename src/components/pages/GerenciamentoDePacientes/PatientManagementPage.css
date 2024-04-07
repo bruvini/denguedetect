@@ -1,3 +1,33 @@
-body{
+body {
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
+
+.patient-management-page {
+    text-align: center;
+    padding-top: 20px;
+    /* Ajuste conforme necessário */
+}
+
+.action-section {
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    /* Espaço entre os botões */
+}
+
+.filters-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Você pode precisar ajustar o InputField.css e Button.css para garantir a consistência */
